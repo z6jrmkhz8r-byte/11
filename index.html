@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+    <meta name="theme-color" content="#F2E8D5" />
+    <title>GKTI · 高考人格测试</title>
+    <!--
+      字体策略：
+      - 在 dev/普通 build 下，仍可使用 Google Fonts + LXGW WenKai CDN 提升中文观感；
+      - 在 SINGLE_FILE 模式下，构建脚本会把这些外链移除并使用纯系统字体回退，
+        避免上传到不可访问外网的预览平台（如 With）时无法加载。
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" data-external-font />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin data-external-font />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700;900&family=Noto+Sans+SC:wght@400;500;700&family=Space+Mono:wght@400;700&family=JetBrains+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+      data-external-font
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css"
+      rel="stylesheet"
+      data-external-font
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
